@@ -61,3 +61,10 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+###############################################################################
+# GitHub Linguist language overrides
+###############################################################################
+*.tex linguist-documentation=true
+*.cu linguist-detectable=true
+*.cs linguist-detectable=true
